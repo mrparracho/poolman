@@ -1,2 +1,0 @@
-# poolman
-Liquidity Pool Manager
