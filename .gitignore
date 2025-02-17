@@ -172,3 +172,5 @@ cython_debug/
 
 # others
 env*
+data
+.DS_Store

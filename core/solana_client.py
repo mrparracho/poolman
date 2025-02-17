@@ -1,6 +1,6 @@
 import os
 from solana.rpc.api import Client
-from solders.pubkey import Pubkey
+from solders.pubkey import Pubkey # type: ignore
 
 class SolanaClient:
     def __init__(self):
