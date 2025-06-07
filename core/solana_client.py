@@ -5,7 +5,7 @@ from solders.pubkey import Pubkey # type: ignore
 class SolanaClient:
     def __init__(self):
         # Initialize with devnet for testing
-        self.client = Client("https://api.mainnet-beta.solana.com")
+        self.client = Client("https://api.devnet.solana.com")
         
         # Get wallet address from environment
         wallet_address = os.getenv("SOLANA_WALLET_ADDRESS")

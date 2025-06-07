@@ -1,4 +1,9 @@
 langchain
 langchain-openai
-solana
 solders
+pandas
+numpy
+requests
+python-dotenv
+construct>=2.10.0
+base58>=2.1.0
